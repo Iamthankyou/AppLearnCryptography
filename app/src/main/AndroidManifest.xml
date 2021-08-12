@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modulo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".DSA"></activity>
+        <activity android:name=".ElGamal" />
+        <activity android:name=".DiffieHellman" />
+        <activity android:name=".Logarit" />
+        <activity android:name=".EulerNumber" />
+        <activity android:name=".PrimitiveRoot" />
+        <activity android:name=".Chinese" />
+        <activity android:name=".RSA" />
+        <activity android:name=".ChineseMainTheorem" />
+        <activity android:name=".FenceRail" />
+        <activity android:name=".FairPlay" />
+        <activity android:name=".Monoalphabetic" />
+        <activity android:name=".Vigenere" />
+        <activity android:name=".DecryptCaesar" />
+        <activity android:name=".EncryptCaesar" />
+        <activity android:name=".Caesar" />
+        <activity android:name=".FactPrime" />
+        <activity android:name=".CheckPrime" />
+        <activity android:name=".RevertModulo" />
+        <activity android:name=".ModuloDivide" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
